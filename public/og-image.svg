@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e3c894" />
+      <stop offset="0.55" stop-color="#d4af6a" />
+      <stop offset="1" stop-color="#a9803c" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.75" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#d4af6a" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#d4af6a" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#08090b" />
+  <rect width="1200" height="630" fill="url(#glow)" />
+
+  <g stroke="#ffffff" stroke-opacity="0.05">
+    <path d="M0 105h1200M0 210h1200M0 315h1200M0 420h1200M0 525h1200" />
+    <path d="M100 0v630M250 0v630M400 0v630M550 0v630M700 0v630M850 0v630M1000 0v630M1150 0v630" />
+  </g>
+
+  <g transform="translate(88 92)">
+    <rect width="56" height="56" rx="16" fill="none" stroke="url(#gold)" stroke-opacity="0.5" stroke-width="2" />
+    <g fill="none" stroke="url(#gold)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 26 28 13l16 13" />
+      <path d="M16 24v17h24V24" />
+      <path d="M23 41v-9h10v9" />
+    </g>
+    <text x="76" y="24" font-family="Georgia, serif" font-size="24" fill="#ece9e2">Elivate Estate</text>
+    <text x="76" y="46" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="3" fill="#6f7681">DIGITAL MARKETING FOR REAL ESTATE</text>
+  </g>
+
+  <text x="88" y="296" font-family="Georgia, serif" font-size="64" fill="#ece9e2">More qualified property leads.</text>
+  <text x="88" y="374" font-family="Georgia, serif" font-size="64" fill="url(#gold)">Fewer empty viewings.</text>
+
+  <text x="88" y="428" font-family="Georgia, serif" font-size="24" font-style="italic" fill="#d4af6a">Built on trust, rooted in value.</text>
+  <text x="88" y="470" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#9aa1ab">Paid search, SEO, listing content and lead nurture for real estate.</text>
+
+  <g transform="translate(88 512)">
+    <rect width="320" height="60" rx="30" fill="url(#gold)" />
+    <text x="160" y="38" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#08090b">Get a free growth audit</text>
+  </g>
+</svg>
